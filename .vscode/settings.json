@@ -5,7 +5,13 @@
     "editor.fontSize": 16,
     "editor.wrappingColumn": 0,
 
+     // Insert spaces when pressing Tab.
+    "editor.insertSpaces": true,
+
+    // The number of spaces a tab is equal to.
+    "editor.tabSize": 2,
+
     // Automatically beautify files on save. Set to true to run for JSON, javascript, html and css. Use array to set indiviaul types to beautify: ["js", "json", "html", "css"]
-    "beautify.onSave": false
+    "beautify.onSave": true
 
 }
