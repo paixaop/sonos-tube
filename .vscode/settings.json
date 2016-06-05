@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite the default settings
+{
+     // When enabled, will trim trailing whitespace when you save a file.
+    "files.trimTrailingWhitespace": true,
+    "editor.fontSize": 16,
+    "editor.wrappingColumn": 0,
+
+    // Automatically beautify files on save. Set to true to run for JSON, javascript, html and css. Use array to set indiviaul types to beautify: ["js", "json", "html", "css"]
+    "beautify.onSave": false
+
+}

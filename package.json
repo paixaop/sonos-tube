@@ -36,6 +36,9 @@
     "youtube-api": "^2.0.2",
     "ytdl-core": "0.7.15"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.1.1"
+  },
   "license": "MIT"
 }
