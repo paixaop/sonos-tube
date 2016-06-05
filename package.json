@@ -1,0 +1,41 @@
+{
+  "name": "sonos-tube",
+  "description": "Stream YouTube Audio Directly to Sonos or other ShoutCast clients",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paixaop/sonos-tube"
+  },
+  "main": "lib/server.js",
+  "author": "Pedro Paixao",
+  "scripts": {},
+  "keywords": [
+    "audio",
+    "youtube",
+    "stream",
+    "streaming",
+    "sonos"
+  ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-winston": "^1.4.0",
+    "fluent-ffmpeg": "2.1.0",
+    "icecast-stack": "^0.3.0",
+    "ip": "^1.1.3",
+    "lame": "^1.2.3",
+    "parse-duration": "^0.1.1",
+    "peer-dial": "0.0.7",
+    "phantom": "^2.1.3",
+    "phantomjs": "^2.1.7",
+    "randomstring": "^1.1.5",
+    "request": "^2.72.0",
+    "sonos": "^0.12.0",
+    "throttle": "^1.0.3",
+    "through2": "2.0.1",
+    "uuid": "^2.0.2",
+    "youtube-api": "^2.0.2",
+    "ytdl-core": "0.7.15"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
